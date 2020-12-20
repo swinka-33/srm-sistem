@@ -1,0 +1,65 @@
+.Menu {
+    height: 91.25vh;
+    padding-top: 20px;
+    width: 13vw;
+    float: left;
+    box-shadow: 1px 1px 5px #aaaaaa; 
+}
+
+.Menu__home {
+    width: 11vw;
+    height: 36px;
+    font-size: 16px;
+    color: black;
+    transition: background-color 0.2s ease-in;
+    padding-left: 30px;
+    padding-top: 12px;
+}
+
+.Menu__outlay {
+    width: 11vw;
+    height: 36px;
+    font-size: 16px;
+    color: black;
+    transition: background-color 0.2s ease-in;
+    padding-left: 30px;
+    padding-top: 12px;
+}
+
+.Menu__revenue {
+    width: 11vw;
+    height: 36px;
+    font-size: 16px;
+    color: black;
+    transition: background-color 0.2s ease-in;
+    padding-left: 30px;
+    padding-top: 12px;
+}
+
+.Menu__history {
+    width: 11vw;
+    height: 36px;
+    font-size: 16px;
+    color: black;
+    transition: background-color 0.2s ease-in;
+    padding-left: 30px;
+    padding-top: 12px;
+}
+
+.Menu__settings {
+    width: 11vw;
+    height: 36px;
+    font-size: 16px;
+    color: black;
+    transition: background-color 0.2s ease-in;
+    padding-left: 30px;
+    padding-top: 12px;
+}
+
+.Menu__home:hover,
+.Menu__outlay:hover,
+.Menu__revenue:hover,
+.Menu__history:hover,
+.Menu__settings:hover {
+    background-color: #efefef;
+}

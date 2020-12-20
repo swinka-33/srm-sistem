@@ -1,0 +1,37 @@
+const ENGLISH = {
+    value : [
+        'Family\'s outlay:',
+        'Family\'s revenue:',
+        'Outlay',
+        'Revenue',
+        'Check',
+        'Check',
+        'Create',
+        'Create',
+        'Create outlay',
+        'Create revenue',
+        'Home',
+        'Outlay',
+        'Revenue',
+        'History',
+        'Setting',
+        'Normal Zone',
+        'Danger Zone',
+        'User name',
+        'Rename',
+        'Delete outlays',
+        'Delete revenues',
+        'You can delete your outlays, be careful.',
+        'You can delete your revenues, be careful.',
+        'You can change your language, be careful.',
+        'You can change your language, be careful.',
+        'Attention!',
+        'You Create the outlay',
+        'Attention!',
+        'You Create the revenue',
+        'Do you want to delete outlays',
+        'Do you want to delete revenues',
+        'Delete'
+    ]
+};
+

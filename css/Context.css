@@ -1,0 +1,125 @@
+.Context {
+    height: 89vh;
+    width: 83vw;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    position: relative;
+}
+
+.Home {
+    height: 89vh;
+    width: 83vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.History {
+    height: 89vh;
+    width: 83vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.Home__outlay {
+    font-size: 20px;
+    width: 28vw;
+    height: 19vh;
+    padding: 10px;
+    background-color: rgb(6, 110, 230);
+    margin-left: 8vw;
+    margin-top: 40px;
+    float: left;
+}
+
+.Home__outlay__two {
+    font-size: 20px;
+    width: 28vw;
+    height: 19vh;
+    padding: 10px;
+    background-color: red;
+    margin-left: 8vw;
+    margin-top: 40px;
+    float: left;
+}
+
+.Home__outlay__three {
+    font-size: 20px;
+    width: 28vw;
+    height: 19vh;
+    padding: 10px;
+    margin-left: 26vw;
+    background-color: green;
+    margin-top: 80px;
+    float: left;
+}
+
+.Home__outlay__three__span {
+    margin-top: 5.5vh;
+}
+
+.box {
+    width: 27vw;
+    height: 20px;
+    padding: 5px;
+}
+
+.box__text {
+    width: 20vw;
+    height: 20px;
+    font-size: 16px;
+    float: left;
+    padding: 5px;
+    border-top: 1px solid #aaaaaa;
+    border-bottom: 1px solid #aaaaaa;
+    border-left: 1px solid #aaaaaa;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.box__money {
+    width: 3vw;
+    height: 20px;
+    font-size: 16px;
+    float: left;
+    padding: 5px;
+    text-align: center;
+    border-top: 1px solid #aaaaaa;
+    border-bottom: 1px solid #aaaaaa;
+    border-right: 1px solid #aaaaaa;
+    margin-top: 10px;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: rgb(7, 187, 61);
+}
+
+.Home__div {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    margin-left: 78vw;
+    margin-top: 78vh;
+    border-radius: 50%;
+    background-color: rgb(17, 219, 135);
+    transition: all 0.6s ease;
+}
+
+.Home__div__img {
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.Home__div:hover {
+    background-color: rgb(8, 240, 143);
+}

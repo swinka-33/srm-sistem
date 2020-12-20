@@ -1,0 +1,317 @@
+.Settings {
+    height: 87vh;
+    width: 83vw;
+    padding-top: 2vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.Settings__delete {
+    width: 140px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #aaaaaa;
+    background-color: white;
+    font-size: 16px;
+    outline: none;
+    color: rgb(194, 15, 15);
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+
+.Settings__english {
+    width: 140px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #aaaaaa;
+    background-color: white;
+    font-size: 16px;
+    outline: none;
+    color: rgb(7, 187, 61);
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+
+.Settings__english:hover {
+    color:white;
+    background-color: rgb(7, 187, 61);
+}
+
+.Settings__delete:hover {
+    color:white;
+    background-color: rgb(194, 15, 15);
+}
+
+.Danger__zone {
+    font-size: 22px;
+    margin-left: 30px;
+}
+
+.margin {
+    width: 10px;
+    height: 50px;
+}
+
+.Normal__zone {
+    font-size: 22px;
+    margin-left: 30px;
+}
+
+.Danger {
+    width: 49vw;
+    height: 13vh;
+    padding: 20px;
+    border: 1px solid rgb(194, 15, 15);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.Normal {
+    width: 49vw;
+    height: 13vh;
+    padding: 20px;
+    border: 1px solid rgb(7, 187, 61);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.Settings__text {
+    width: 40vw;
+    padding: 2px;
+    padding-top: 7px;
+    font-size: 14px;
+    float: left;
+}
+
+.Settings__language__text {
+    width: 40vw;
+    padding: 2px;
+    padding-top: 7px;
+    font-size: 14px;
+    float: left;
+}
+
+.Settings__language__text__two {
+    width: 40vw;
+    padding: 2px;
+    padding-top: 7px;
+    font-size: 14px;
+    float: left;
+}
+
+.Settings__button {
+    width: 2vw;
+    text-align: right;
+    margin-left: 8.5vw;
+    float: left;
+    padding: 2px;
+}
+
+.Settings__language__button {
+    width: 2vw;
+    text-align: right;
+    margin-left: 8.5vw;
+    float: left;
+    padding: 2px;
+}
+
+.Settings__language__button__two {
+    width: 2vw;
+    text-align: right;
+    margin-left: 8.5vw;
+    float: left;
+    padding: 2px;
+}
+
+.Settings__text__two {
+    width: 40vw;
+    padding: 2px;
+    padding-top: 3px;
+    font-size: 14px;
+    float: left;
+}
+
+.Settings__button__two {
+    width: 2vw;
+    text-align: right;
+    margin-left: 8.5vw;
+    float: left;
+    padding: 2px;
+}
+
+.div {
+    text-align: left;
+}
+
+.div__two {
+    width: 100%;
+    height: 100%;
+    margin-top: 3vh;
+    padding-top: 3vh;
+    border-top: 1px solid #a5a1a1;
+    text-align: left;
+}
+
+.div__english {
+    text-align: left;
+}
+
+.div__english__two {
+    width: 100%;
+    height: 100%;
+    margin-top: 3vh;
+    padding-top: 3vh;
+    border-top: 1px solid #a5a1a1;
+    text-align: left;
+}
+
+.Settings__name {
+    width: 30vw;
+    height: 10vh;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.Settings__userName {
+    font-size: 14px;
+}
+
+.Settings__change__name {
+    width: 200px;
+    height: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: all 0.2s ease;
+    border: 1px solid #aaaaaa;
+}
+
+.Settings__button__name {
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    outline: none;
+}
+
+.Settings__change__name:hover {
+    box-shadow: 0px 0px 5px #393a3a;
+}
+
+.Settings__Error {
+    width: 29vw;
+    padding: 10px;
+    height: 18vh;
+    position: relative;
+    background-color: #ffffff;
+    left: 24vw;
+    top: -70vh;
+    box-shadow: 0px 0px 10px #727070;
+    display: none;
+}
+
+.Error__textDeleteOutlay {
+    width: 220px;
+    font-size: 14px;
+    float: left;
+}
+
+.Erorr__stopOutlay {
+    float: left;
+    margin-left: 215px;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+    color: red;
+    transition: all 0.2s ease;
+}
+
+.Erorr__stopOutlay:hover {
+    background-color: red;
+    color: white; 
+}
+
+.Error__button {
+    margin-left: 22vw;
+    margin-top: 11vh;
+    padding: 4px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    outline: none;
+    color: rgb(194, 15, 15);
+    width: 100px;
+    transition: all 0.2s ease;
+}
+
+.Error__button:hover {
+    color: white;
+    background-color:rgb(194, 15, 15);
+}
+
+.Settings__ErrorRevenue {
+    width: 29vw;
+    padding: 10px;
+    height: 18vh;
+    position: relative;
+    background-color: #ffffff;
+    left: 24vw;
+    top: -70vh;
+    box-shadow: 0px 0px 10px #727070;
+    display: none;
+}
+
+.Error__textDeleteRevenue {
+    width: 220px;
+    font-size: 14px;
+    float: left;
+}
+
+.Erorr__stopRevenue {
+    float: left;
+    margin-left: 215px;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+    color: red;
+    transition: all 0.2s ease;
+}
+
+.Erorr__stopRevenue:hover {
+    background-color: red;
+    color: white; 
+}
+ 
+.Error__buttonRevenue {
+    margin-left: 22vw;
+    margin-top: 11vh;
+    padding: 4px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    outline: none;
+    color: rgb(194, 15, 15);
+    width: 100px;
+    transition: all 0.2s ease;
+}
+
+.Error__buttonRevenue:hover {
+    color: white;
+    background-color:rgb(194, 15, 15);
+}

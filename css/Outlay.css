@@ -1,0 +1,100 @@
+.Outlay {
+    height: 89vh;
+    width: 83vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #aaaaaa;
+    outline: none;
+}
+
+.Outlay__inputOne {
+    width: 27vw;   
+    padding: 5px; 
+    margin-top: 30px;
+}
+
+.Outlay__button {
+    outline: none;
+    width: 8vw;
+    height: 30px;
+    background-color: rgb(6, 187, 112);
+    margin-top: 40px;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.Outlay__button__check {
+    outline: none;
+    width: 8vw;
+    height: 30px;
+    background-color: rgb(6, 187, 112);
+    margin-top: 40px;
+    margin-left: 10px;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.Revenue__button__check {
+    outline: none;
+    width: 8vw;
+    height: 30px;
+    background-color: rgb(6, 187, 112);
+    margin-top: 40px;
+    margin-left: 10px;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+#ln__Outlay__create {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+#ln__Outlay__add {
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+#ln__Outlay__check {
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+#ln__Revenue__check {
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.Outlay__inputTwo {
+    width: 27vw;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+.Outlay__inputs {
+    width: 30vw;
+    height: 20vh;
+    float: left;
+    margin-left: 4vw;
+    margin-top: 20px;
+}
+
+.Outlay__message {
+    width: 82vw;
+    padding: 14px;
+    height: 3vh;
+    padding-left: 3vw;
+    background-color: rgba(44, 238, 26, 0.521);
+    border-radius: 5px;
+    display: none;
+    transition: all 1s ease;
+}

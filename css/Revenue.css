@@ -1,0 +1,67 @@
+.Revenue {
+    height: 89vh;
+    width: 83vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.Revenue__name {
+    width: 50vw;
+    height: 100%;
+    margin-left: 4vw;
+    margin-top: 2.5vh;
+}
+
+#ln__Revenue {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.Revenue__inputOne {
+    width: 27vw;   
+    padding: 5px; 
+    margin-top: 30px;
+}
+
+.Revenue__inputTwo {
+    width: 27vw;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+.Revenue__inputs {
+    width: 30vw;
+    height: 20vh;
+    float: left;
+    margin-left: 4vw;
+    margin-top: 20px;
+}
+
+#ln__Revenue__add {
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.Revenue__button {
+    outline: none;
+    width: 8vw;
+    height: 30px;
+    background-color: rgb(6, 187, 112);
+    margin-top: 40px;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.Revenue__message {
+    width: 82vw;
+    padding: 14px;
+    height: 3vh;
+    padding-left: 3vw;
+    background-color: rgba(44, 238, 26, 0.521);
+    border-radius: 5px;
+    display: none;
+    transition: all 1s ease;
+}

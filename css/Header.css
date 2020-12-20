@@ -1,0 +1,29 @@
+.Header {
+    height: 5vh;
+    padding: 5px;
+    background-color: rgb(255, 174, 0);
+    box-shadow: 1px 1px 5px #222121;
+}
+
+.Header__logo {
+    width: 30px;
+    height: 30px;
+    margin-left: 2vw;
+    margin-top: 7px;
+    float: left;
+}
+
+.Header__logo__img {
+    width: 25px;
+    height: 25px;
+}
+
+.Header__name {
+    width: 16vw;
+    height: 4vh;
+    float: left;
+    margin-left: 76vw;
+    margin-top: 0.5vh;
+    text-align: center;
+    font-size: 24px;
+}

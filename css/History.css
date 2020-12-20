@@ -1,0 +1,39 @@
+.History__box {
+    width: 30vw;
+    padding: 10px;
+    position: relative;
+    left: 0vw;
+}
+
+.History__box__revenue {
+    width: 30vw;
+    padding: 10px;
+    position: relative;
+    left: 0vw;
+}
+
+.History__name {
+    font-size: 30px;
+    width: 10vw;
+    height: 50px;
+    margin-left: 7vw;
+    padding-top: 10px;
+}
+
+.History__name__revenue {
+    font-size: 30px;
+    width: 10vw;
+    height: 50px;
+    margin-left: 7vw;
+    padding-top: 10px;
+}
+
+.Revenue__left {
+    float: left;
+    margin-left: 10vw;
+}
+
+.Revenue__right {
+    float: left;
+    margin-left: 5vw;
+} 
