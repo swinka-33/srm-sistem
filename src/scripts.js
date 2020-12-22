@@ -22,29 +22,41 @@ const CLEAR_INPUT = (one, two) => {
 
 const OUTLAY = (button, inputMoney, inputText, outlayOne, countauner, outlayMessage) => {
     button.addEventListener('click', () => {
-        ID++;
-        outlayArr.push(inputMoney.value);
-        countauner.innerHTML += ToDo(inputText.value, inputMoney.value, ID, 'red')
-        CLEAR_INPUT(inputText, inputMoney)
-        outlayOne.innerHTML = date.outlay();
-        outlayMessage.style.display = 'block';
-        setTimeout(() => {
-            outlayMessage.style.display = 'none';
-        }, 3000);
+        if( inputText.value !== '' && 
+            inputMoney.value !== '' && 
+            inputText.value !== ' ' && 
+            inputMoney.value !== ' ' 
+        ) {
+            ID++;
+            outlayArr.push(inputMoney.value);
+            countauner.innerHTML += ToDo(inputText.value, inputMoney.value, ID, 'red')
+            CLEAR_INPUT(inputText, inputMoney)
+            outlayOne.innerHTML = date.outlay();
+            outlayMessage.style.display = 'block';
+            setTimeout(() => {
+                outlayMessage.style.display = 'none';
+            }, 3000);
+        }
     });
 };
 
 const REVENUE = (buttonRevenue, inputMoneyRevenue, inputTextRevenue, outlayOneRevenue, countaunerRevenue, revenueMessage) => {
     buttonRevenue.addEventListener('click', () => {
-        REVENUE_ID--;
-        revenueArr.push(inputMoneyRevenue.value);
-        countaunerRevenue.innerHTML += ToDo(inputTextRevenue.value, inputMoneyRevenue.value, REVENUE_ID, 'green')
-        CLEAR_INPUT(inputTextRevenue, inputMoneyRevenue)
-        outlayOneRevenue.innerHTML = date.revenue();
-        revenueMessage.style.display = 'block';
-        setTimeout(() => {
-            revenueMessage.style.display = 'none';
-        }, 3000);
+        if( inputTextRevenue.value !== '' &&
+            inputMoneyRevenue.value !== '' && 
+            inputTextRevenue.value !== ' ' && 
+            inputMoneyRevenue.value !== ' ' 
+        ) {
+            REVENUE_ID--;
+            revenueArr.push(inputMoneyRevenue.value);
+            countaunerRevenue.innerHTML += ToDo(inputTextRevenue.value, inputMoneyRevenue.value, REVENUE_ID, 'green')
+            CLEAR_INPUT(inputTextRevenue, inputMoneyRevenue)
+            outlayOneRevenue.innerHTML = date.revenue();
+            revenueMessage.style.display = 'block';
+            setTimeout(() => {
+                revenueMessage.style.display = 'none';
+            }, 3000);
+        }
     });
 };
 
@@ -100,13 +112,15 @@ const CLICK = (button, noneOne, noneTwo, noneThree, noneFour, block) => {
 
 const CHANGE_NAME = (changeNameInput, changeNameButton, userNameId) => {
     changeNameButton.addEventListener('click', () => {
-        if (changeNameInput.value !== '') {
+        if ( changeNameInput.value !== '' &&
+             changeNameInput.value !== ' '
+        ) {
             date.userName = changeNameInput.value;
             userNameId.innerHTML = date.name();
             changeNameInput.value = '';
         }
     });
-};
+};  
 
 const CHECK = (button, noneOne, noneTwo, noneThree, noneFour, block) => {
     return ROUTERING(button, noneOne, noneTwo, noneThree, noneFour, block)
